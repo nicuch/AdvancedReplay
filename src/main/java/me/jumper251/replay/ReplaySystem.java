@@ -41,7 +41,7 @@ public class ReplaySystem extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 		
-		Long start = System.currentTimeMillis();
+		long start = System.currentTimeMillis();
 
 		LogUtils.log("Loading Replay v" + getDescription().getVersion() + " by " + getDescription().getAuthors().get(0));
 		
