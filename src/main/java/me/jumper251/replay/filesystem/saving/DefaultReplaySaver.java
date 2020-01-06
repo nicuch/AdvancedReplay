@@ -18,7 +18,6 @@ import java.util.zip.GZIPOutputStream;
 import me.jumper251.replay.ReplaySystem;
 import me.jumper251.replay.replaysystem.Replay;
 import me.jumper251.replay.replaysystem.data.ReplayData;
-import me.jumper251.replay.utils.LogUtils;
 import me.jumper251.replay.utils.fetcher.Acceptor;
 import me.jumper251.replay.utils.fetcher.Consumer;
 

@@ -10,19 +10,19 @@ import me.jumper251.replay.replaysystem.Replay;
 
 public class ReplayManager {
 
-	public static HashMap<String, Replay> activeReplays = new HashMap<String, Replay>();
-	
-	public static void register() {
-		registerEvents();
-		registerCommands();
-	}
-	
-	private static void registerEvents() {
-		new ReplayListener().register();
-	}
-	
-	private static void registerCommands() {
-		ReplaySystem.getInstance().getCommand("replay").setExecutor(new ReplayCommand());
-	}
+    public static HashMap<String, Replay> activeReplays = new HashMap<>();
+
+    public static void register() {
+        registerEvents();
+        registerCommands();
+    }
+
+    private static void registerEvents() {
+        new ReplayListener().register();
+    }
+
+    private static void registerCommands() {
+        ReplaySystem.getInstance().getCommand("replay").setExecutor(new ReplayCommand());
+    }
 
 }

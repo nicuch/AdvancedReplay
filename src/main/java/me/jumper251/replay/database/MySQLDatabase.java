@@ -12,8 +12,6 @@ import me.jumper251.replay.ReplaySystem;
 import me.jumper251.replay.database.utils.AutoReconnector;
 import me.jumper251.replay.database.utils.Database;
 import me.jumper251.replay.database.utils.DatabaseService;
-import me.jumper251.replay.utils.LogUtils;
-
 
 
 public class MySQLDatabase extends Database {

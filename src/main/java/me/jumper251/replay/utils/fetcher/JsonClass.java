@@ -16,8 +16,6 @@ public abstract class JsonClass implements ExclusionStrategy{
     @Override
     public boolean shouldSkipField(FieldAttributes field) {
         SerializedName ns = field.getAnnotation(SerializedName.class);
-        if(ns != null)
-            return false;
-        return true;
+        return ns == null;
     }
 }

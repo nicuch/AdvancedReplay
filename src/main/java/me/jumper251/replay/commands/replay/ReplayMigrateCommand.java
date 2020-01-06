@@ -17,7 +17,6 @@ import me.jumper251.replay.filesystem.saving.DefaultReplaySaver;
 import me.jumper251.replay.filesystem.saving.IReplaySaver;
 import me.jumper251.replay.filesystem.saving.ReplaySaver;
 import me.jumper251.replay.replaysystem.Replay;
-import me.jumper251.replay.utils.LogUtils;
 import me.jumper251.replay.utils.fetcher.Consumer;
 
 public class ReplayMigrateCommand extends SubCommand {

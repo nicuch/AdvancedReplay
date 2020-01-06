@@ -12,7 +12,7 @@ import me.jumper251.replay.utils.VersionUtil.VersionEnum;
 
 public class ItemUtils {
 
-	  private static final List<Material> INTERACTABLE = new ArrayList<Material>();
+	  private static final List<Material> INTERACTABLE = new ArrayList<>();
 
 	  public static boolean isInteractable(Material mat) {
 		  if (mat == null) return false;
@@ -31,6 +31,7 @@ public class ItemUtils {
 	  }
 	  
 	  static {
+	  	// This is the most bullshit thing I've seen in my life.
 		  INTERACTABLE.add(Material.STONE_BUTTON);
 		    INTERACTABLE.add(Material.LEVER);
 		    INTERACTABLE.add(Material.CHEST);
